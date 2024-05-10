@@ -1,0 +1,225 @@
+.navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkgray);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1440px;
+  height: 56px;
+}
+.profile11 {
+  position: absolute;
+  top: 30px;
+  left: 1323px;
+  font-size: var(--font-size-lg);
+  font-weight: 300;
+  font-family: var(--font-bahnschrift);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 61px;
+  height: 29px;
+  min-width: 61px;
+}
+.epick-1-icon5 {
+  position: absolute;
+  top: 5px;
+  left: 1384px;
+  border-radius: var(--br-999999986991085xl);
+  width: 47px;
+  height: 47px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.carmart10 {
+  margin: 0;
+  top: 0;
+  left: 171px;
+  font-size: var(--font-size-29xl);
+  font-weight: 400;
+  display: inline-block;
+  width: 276px;
+  height: 56px;
+}
+.back2,
+.carmart10,
+.edit-photo {
+  position: absolute;
+  font-family: var(--font-bahnschrift);
+  color: var(--color-black);
+  text-align: left;
+}
+.back2 {
+  top: 65px;
+  left: 39px;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  width: 235px;
+  height: 44px;
+  cursor: pointer;
+}
+.edit-photo {
+  margin: 0;
+  top: 441.1px;
+  left: 597px;
+  font-size: var(--font-size-31xl);
+  font-weight: 400;
+}
+.auth-form,
+.auth-form1,
+.auth-form2 {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-darkgray);
+  position: absolute;
+  top: 506px;
+  left: 512px;
+  border-radius: 94px;
+  width: 390px;
+  height: 78px;
+}
+.auth-form1,
+.auth-form2 {
+  top: 594px;
+  border-radius: 215px;
+}
+.auth-form2 {
+  top: 682px;
+  border-radius: 484px;
+}
+.e-mail,
+.nickname,
+.passworld {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-bahnschrift);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  position: absolute;
+  top: 532px;
+  left: 557px;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.e-mail,
+.passworld {
+  top: 620px;
+  min-width: 76px;
+}
+.passworld {
+  top: 708px;
+  min-width: 118px;
+}
+.frame-child34 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-28xl);
+  background-color: var(--color-darkgray);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.login {
+  position: absolute;
+  top: 8px;
+  left: 52px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-bahnschrift);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 45px;
+}
+.frame-child35,
+.rectangle-parent30 {
+  position: absolute;
+  border-radius: var(--br-28xl);
+  background-color: var(--color-darkgray);
+}
+.rectangle-parent30 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  top: 791px;
+  left: 512px;
+  width: 150px;
+  height: 37px;
+}
+.frame-child35 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.sing-up1 {
+  position: absolute;
+  top: 8px;
+  left: 44px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-bahnschrift);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 62px;
+}
+.rectangle-parent31 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-darkgray);
+  position: absolute;
+  top: 791px;
+  left: 732px;
+  border-radius: var(--br-28xl);
+  width: 150px;
+  height: 37px;
+}
+.mascot-logo-design-fb-img-1200-icon10 {
+  position: absolute;
+  top: 0;
+  left: 45px;
+  width: 148px;
+  height: 56px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.removebg-preview-1-icon {
+  position: absolute;
+  top: 45px;
+  left: 447px;
+  width: 514px;
+  height: 398px;
+  object-fit: contain;
+}
+.desktop-12 {
+  margin: 0;
+  width: 100%;
+  height: 872px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 767px) {
+  .edit-photo {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .back2 {
+    font-size: var(--font-size-xl);
+  }
+  .edit-photo {
+    font-size: var(--font-size-11xl);
+  }
+  .e-mail,
+  .nickname,
+  .passworld {
+    font-size: var(--font-size-xl);
+  }
+}
